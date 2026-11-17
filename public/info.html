@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Management - Info</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
+    h1 { color: #1a4d8f; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>Vehicle Management Application</h1>
+  <p>This page is a <strong>static file</strong> served by the Node.js <code>fs</code> module (<code>fs.readFile()</code>).</p>
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>Node.js (ES Modules)</li>
+    <li>HTTP module (Part A, port 3000)</li>
+    <li>FS module</li>
+    <li>Express.js (Part B, port 4000)</li>
+  </ul>
+  <h2>Vehicle Fields</h2>
+  <table>
+    <tr><th>Field</th><th>Description</th></tr>
+    <tr><td>id</td><td>Unique vehicle ID</td></tr>
+    <tr><td>vehicleName</td><td>Name of the vehicle</td></tr>
+    <tr><td>vehicleNumber</td><td>Registration number</td></tr>
+    <tr><td>type</td><td>SUV, Hatchback, Sedan, etc.</td></tr>
+    <tr><td>price</td><td>Price in INR</td></tr>
+  </table>
+  <p><a href="/">Back to Home</a></p>
+</body>
+</html>
